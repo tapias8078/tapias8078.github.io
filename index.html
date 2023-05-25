@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    
+</head>
+<body>
+<header>
+    <img src="Logo.svg" alt="Logo" id="logo">
+</header>  
+
+<section class="msj">
+    <textarea id="txtMensaje" placeholder="Ingrese el texto aqui" required></textarea>
+    <div>
+        <div class="msj-txt">                
+            <p><i class="fa fa-exclamation-circle"></i> Ingrese el texto a encriptar o desencriptar</p>                             
+        </div>
+        <div class="btns">
+            <button type="button" id="btnEncriptar" >Encriptar</button>
+            <button type="button" id="btnDesencriptar" >Desencriptar</button>        
+        </div>
+    </div>
+</section>
+
+    <section id="sin-msj">
+        <img src="Muneco.svg" alt="muneco" id="muneco">
+        <h2>Ningún mensaje fue encontrado</h2>
+        <p>Ingresa el texto que desees encriptar o desencriptar.</p>
+    </section>
+
+    <section id="resultado">       
+        <textarea name="msjEncriptado" id="txtResultado" cols="30" rows="10"></textarea>
+        
+            <button type="button" id="btnCopiar" >Copiar</button>
+        
+    </section>
+
+    
+    
+
+    <script type="text/javascript" src="script.js"></script>
+</body>
+</html>
+
